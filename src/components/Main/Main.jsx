@@ -40,7 +40,7 @@ const Main = () => {
                     </div>
                 </div>
                 <p className="bottom-info">
-                    这只是一个api失效的网页，不用担心隐私泄漏。
+                    接口来自Gemini，不会有隐私泄漏，请放心使用。
                 </p>
             </div>
         </div>
