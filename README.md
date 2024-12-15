@@ -2,9 +2,12 @@
 
 preview: [link](https://leafy-rabanadas-ca82de.netlify.app/ "none")
 
+[![img](image/README/a.gif)](https://leafy-rabanadas-ca82de.netlify.app/ "none")
+
+[![img](image/README/b.gif)](https://leafy-rabanadas-ca82de.netlify.app/)
 数据持久化⭕️
 
-Gemni接口接入🟢 
+Gemni接口接入🟢
 
 需要挂梯子，才能正常访问和使用
 
