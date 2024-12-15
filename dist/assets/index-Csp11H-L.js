@@ -8378,9 +8378,9 @@ function v4(options, buf, offset) {
 }
 const Sidebar = () => {
   const [extended, setExtended] = reactExports.useState(false);
-  const { onSent, prevPrompts, setRecentPrompts, newChat } = reactExports.useContext(Context);
+  const { onSent, prevPrompts, setRencentPrompt, newChat } = reactExports.useContext(Context);
   const loadPrompt = async (prompt) => {
-    setRecentPrompts(prompt);
+    setRencentPrompt(prompt);
     await onSent(prompt);
   };
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "sidebar", children: [

@@ -1,8 +1,33 @@
-# React + Vite
+# Readme
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+preview: [link](https://leafy-rabanadas-ca82de.netlify.app/ "none")
 
-Currently, two official plugins are available:
+数据持久化⭕️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gemni接口接入🟢 
+
+需要挂梯子，才能正常访问和使用
+
+```bash
+src % tree
+.
+├── App.jsx
+├── assets #静态资源
+│   ├── assets.js #静态资源接口
+│   ├── bulb_icon.png
+│   ├── ...
+│   └── youtube_icon.png
+├── components
+│   ├── Main #右边的主体部分
+│   │   ├── Main.css
+│   │   └── Main.jsx
+│   └── Sidebar #侧栏
+│       ├── Sidebar.css
+│       └── Sidebar.jsx
+├── config
+│   └── gemini.js #用来接入Gemini API
+├── context
+│   └── Context.jsx #公共数据状态
+├── index.css #全局CSS
+└── main.jsx #入口
+```
