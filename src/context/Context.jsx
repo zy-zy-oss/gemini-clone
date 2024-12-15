@@ -3,12 +3,12 @@ import run from "../config/gemini"
 
 export const Context = createContext()
 const ContextProvider = (props) =>{
-    const [input,setInput] = useState("")
-    const [recentPrompt,setRencentPrompt] = useState("")
+    const [input,setInput] = useState("") //输入框中的内容
+    const [recentPrompt,setRencentPrompt] = useState("") //
     const [prevPrompts,setPrevPrompts] = useState([])
-    const [showResult,setShowResult] = useState(false)
-    const [loading,setLoading] = useState(false)
-    const [resultData,setResultData] = useState("")
+    const [showResult,setShowResult] = useState(false) 
+    const [loading,setLoading] = useState(false) //加载特效的开关
+    const [resultData,setResultData] = useState("") //
     const delayPara = (index,nextWord) =>{
         setTimeout(function(){
             setResultData(prev=>prev+nextWord)

@@ -5,9 +5,9 @@ import { Context } from '../../context/Context'
 import {v4} from 'uuid'
 const Sidebar = () => {
     const [extended, setExtended] = useState(false)
-    const { onSent, prevPrompts, setRecentPrompts,newChat } = useContext(Context)
+    const { onSent, prevPrompts, setRencentPrompt,newChat } = useContext(Context)
     const loadPrompt = async (prompt) => {
-        setRecentPrompts(prompt)
+        setRencentPrompt(prompt)
          await onSent(prompt)
     }
     return (
