@@ -1,7 +1,6 @@
 {
   "name": "gemini_clone",
   "homepage": "https://zy-zy-oss.github.io/gemini-clone",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +10,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
@@ -20,6 +18,10 @@
     "uuid": "^11.0.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@eslint/js": "^9.15.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
